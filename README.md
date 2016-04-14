@@ -25,7 +25,7 @@ _(Optional)_. Set advanced settings.
 * __Command__: Command to execute.  _Default:_ `install`.
 * __Arguments__: Additional arguments passed to Typings.
 * __Typings JSON Path__: Relative path to `typings.json` file.  _Default:_ `typings.json`.
-* __Typings CLI__: _Optional._  Typings runtime to run.  When agent can't find this Typings runtime nor global installed one, it will install Typings globally before run (slower).  _Default:_ `node_modules/typings/bin/typings.js`.
+* __Typings CLI__: _Optional._  Typings runtime to run.  When agent can't find this Typings runtime nor global installed one, it will install Typings globally before run (slower).  _Default:_ `node_modules/typings/dist/bin.js`.
 
 ## License
 
